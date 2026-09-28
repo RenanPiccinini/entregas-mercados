@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Fácil - Contato</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="app-header">
+        <a href="index.html" class="logo-container">
+            <img src="logo.png" alt="Mercado Fácil">
+        </a>
+        <button class="menu-btn" id="menuBtn">
+            <i class="ph ph-list"></i>
+        </button>
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+            <a href="index.html" class="nav-item"><i class="ph ph-house"></i> Início</a>
+            <a href="comprar.html" class="nav-item"><i class="ph ph-shopping-cart"></i> Comprar</a>
+            <a href="como-funciona.html" class="nav-item"><i class="ph ph-list-numbers"></i> Como funciona</a>
+            <a href="mercados.html" class="nav-item"><i class="ph ph-storefront"></i> Mercados</a>
+            <a href="contato.html" class="nav-item active"><i class="ph ph-whatsapp-logo"></i> Contato</a>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" id="closeMenuBtn"><i class="ph ph-x"></i></button>
+        <div class="mobile-nav-links">
+            <a href="index.html"><i class="ph ph-house"></i> Início</a>
+            <a href="comprar.html"><i class="ph ph-shopping-cart"></i> Comprar</a>
+            <a href="como-funciona.html"><i class="ph ph-list-numbers"></i> Como funciona</a>
+            <a href="mercados.html"><i class="ph ph-storefront"></i> Mercados</a>
+            <a href="contato.html" class="active"><i class="ph ph-whatsapp-logo"></i> Contato</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container text-center" style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 60vh;">
+        <i class="ph-fill ph-whatsapp-logo text-primary" style="font-size: 5rem; margin-bottom: 1rem;"></i>
+        <h1 class="page-title">Fale Conosco</h1>
+        <p class="page-subtitle">Estamos disponíveis no WhatsApp para tirar suas dúvidas e receber seus pedidos.</p>
+
+        <a href="https://wa.me/5544999755856" target="_blank" class="btn-primary w-full mt-4" style="max-width: 300px;">
+            <i class="ph-fill ph-whatsapp-logo" style="font-size: 1.5rem;"></i>
+            Iniciar Conversa
+        </a>
+    </main>
+
+    <!-- Bottom Navigation (Mobile) -->
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <i class="ph ph-house"></i>
+            Início
+        </a>
+        <a href="comprar.html" class="nav-item">
+            <i class="ph ph-shopping-cart"></i>
+            Comprar
+        </a>
+        <a href="como-funciona.html" class="nav-item">
+            <i class="ph ph-file-text"></i>
+            Como funciona
+        </a>
+        <a href="mercados.html" class="nav-item">
+            <i class="ph ph-storefront"></i>
+            Mercados
+        </a>
+        <a href="contato.html" class="nav-item active">
+            <i class="ph ph-whatsapp-logo"></i>
+            Contato
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>

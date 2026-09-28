@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Fácil - Início</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <!-- Leaf Backgrounds -->
+    <svg class="leaf-bg leaf-top-left" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50 0 C80 20 100 50 100 100 C50 100 0 80 0 50 C0 20 20 0 50 0 Z" fill="#22c55e" opacity="0.8"/>
+    </svg>
+    <svg class="leaf-bg leaf-top-right" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50 0 C80 20 100 50 100 100 C50 100 0 80 0 50 C0 20 20 0 50 0 Z" fill="#16a34a" opacity="0.8"/>
+    </svg>
+    <svg class="leaf-bg leaf-bottom-left" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50 0 C80 20 100 50 100 100 C50 100 0 80 0 50 C0 20 20 0 50 0 Z" fill="#15803d" opacity="0.8"/>
+    </svg>
+
+    <!-- Header -->
+    <header class="app-header">
+        <a href="index.html" class="logo-container">
+            <img src="logo.png" alt="Mercado Fácil">
+        </a>
+        <button class="menu-btn" id="menuBtn">
+            <i class="ph ph-list"></i>
+        </button>
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+            <a href="index.html" class="nav-item active"><i class="ph-fill ph-house"></i> Início</a>
+            <a href="comprar.html" class="nav-item"><i class="ph ph-shopping-cart"></i> Comprar</a>
+            <a href="como-funciona.html" class="nav-item"><i class="ph ph-list-numbers"></i> Como funciona</a>
+            <a href="mercados.html" class="nav-item"><i class="ph ph-storefront"></i> Mercados</a>
+            <a href="contato.html" class="nav-item"><i class="ph ph-whatsapp-logo"></i> Contato</a>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" id="closeMenuBtn"><i class="ph ph-x"></i></button>
+        <div class="mobile-nav-links">
+            <a href="index.html" class="active"><i class="ph-fill ph-house"></i> Início</a>
+            <a href="comprar.html"><i class="ph ph-shopping-cart"></i> Comprar</a>
+            <a href="como-funciona.html"><i class="ph ph-list-numbers"></i> Como funciona</a>
+            <a href="mercados.html"><i class="ph ph-storefront"></i> Mercados</a>
+            <a href="contato.html"><i class="ph ph-whatsapp-logo"></i> Contato</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="hero-section">
+            <h1 class="hero-subtitle mt-4">Você manda a lista. A gente compra e entrega!</h1>
+            
+            <div class="handwritten-container">
+                <p class="handwritten-text">Mais<br>tempo para<br>o que realmente<br>importa!</p>
+                <i class="ph ph-heart heart-icon"></i>
+            </div>
+
+            <h2 class="hero-title-main">Suas<br>compras<br><span style="color: #0d8442;">sem sair<br>de casa!</span></h2>
+            <p class="hero-subtitle">Praticidade, economia<br>e comodidade para<br>o seu dia a dia.</p>
+            
+            <div class="bag-image-container">
+                <img src="grocery_bag.jpg" alt="Compras de mercado">
+                <div class="bag-overlay-text">Qualidade<br>direto para<br>a sua casa!</div>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="ph ph-clock"></i></div>
+                    Entrega rápida<br>na sua cidade
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="ph ph-shield-check"></i></div>
+                    Compra segura<br>e confiável
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="ph ph-piggy-bank"></i></div>
+                    Mais economia<br>para você
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="ph ph-house-line"></i></div>
+                    Mais tempo<br>para o que<br>importa
+                </div>
+            </div>
+
+            <div class="bottom-action-area">
+                <a href="https://wa.me/5544999755856" target="_blank" class="btn-primary">
+                    <i class="ph-fill ph-whatsapp-logo" style="font-size: 2rem;"></i>
+                    <div style="text-align: left; text-transform: uppercase;">
+                        <div style="font-weight: 800; font-size: 1rem; line-height: 1.2;">FAZER MINHA COMPRA</div>
+                        <div style="font-weight: 500; font-size: 0.65rem; text-transform: none;">Peça agora pelo WhatsApp</div>
+                    </div>
+                </a>
+                <p class="footer-text">Facilitando o seu dia a dia!</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bottom Navigation (Mobile) -->
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item active">
+            <i class="ph-fill ph-house"></i>
+            Início
+        </a>
+        <a href="comprar.html" class="nav-item">
+            <i class="ph ph-shopping-cart"></i>
+            Comprar
+        </a>
+        <a href="como-funciona.html" class="nav-item">
+            <i class="ph ph-file-text"></i>
+            Como funciona
+        </a>
+        <a href="mercados.html" class="nav-item">
+            <i class="ph ph-storefront"></i>
+            Mercados
+        </a>
+        <a href="contato.html" class="nav-item">
+            <i class="ph ph-whatsapp-logo"></i>
+            Contato
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Fácil - Como funciona</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <!-- Leaf Backgrounds -->
+    <svg class="leaf-bg leaf-top-left" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50 0 C80 20 100 50 100 100 C50 100 0 80 0 50 C0 20 20 0 50 0 Z" fill="#22c55e" opacity="0.8"/>
+    </svg>
+    <svg class="leaf-bg leaf-bottom-left" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50 0 C80 20 100 50 100 100 C50 100 0 80 0 50 C0 20 20 0 50 0 Z" fill="#15803d" opacity="0.8"/>
+    </svg>
+
+    <!-- Header -->
+    <header class="app-header">
+        <a href="index.html" class="logo-container">
+            <img src="logo.png" alt="Mercado Fácil">
+        </a>
+        <button class="menu-btn" id="menuBtn">
+            <i class="ph ph-list"></i>
+        </button>
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+            <a href="index.html" class="nav-item"><i class="ph ph-house"></i> Início</a>
+            <a href="comprar.html" class="nav-item"><i class="ph ph-shopping-cart"></i> Comprar</a>
+            <a href="como-funciona.html" class="nav-item active"><i class="ph-fill ph-list-numbers"></i> Como funciona</a>
+            <a href="mercados.html" class="nav-item"><i class="ph ph-storefront"></i> Mercados</a>
+            <a href="contato.html" class="nav-item"><i class="ph ph-whatsapp-logo"></i> Contato</a>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" id="closeMenuBtn"><i class="ph ph-x"></i></button>
+        <div class="mobile-nav-links">
+            <a href="index.html"><i class="ph ph-house"></i> Início</a>
+            <a href="comprar.html"><i class="ph ph-shopping-cart"></i> Comprar</a>
+            <a href="como-funciona.html" class="active"><i class="ph-fill ph-list-numbers"></i> Como funciona</a>
+            <a href="mercados.html"><i class="ph ph-storefront"></i> Mercados</a>
+            <a href="contato.html"><i class="ph ph-whatsapp-logo"></i> Contato</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container">
+        <h1 class="page-title mt-4">Como funciona?</h1>
+        <p class="page-subtitle">É simples, rápido e seguro!</p>
+
+        <div class="steps-container">
+            <div class="step-item" style="border:none; box-shadow:none; padding: 0.5rem 0;">
+                <div class="step-number">1</div>
+                <div style="width: 50px; height: 50px; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #1f2937;">
+                    <i class="ph-fill ph-device-mobile"></i>
+                </div>
+                <div class="step-text">
+                    <h4>Envie sua lista</h4>
+                    <p>Mande uma foto ou digite os itens que você precisa.</p>
+                </div>
+            </div>
+
+            <div class="step-item" style="border:none; box-shadow:none; padding: 0.5rem 0;">
+                <div class="step-number">2</div>
+                <div style="width: 50px; height: 50px; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #1f2937;">
+                    <i class="ph-fill ph-chat-circle-text"></i>
+                </div>
+                <div class="step-text">
+                    <h4>Receba o orçamento</h4>
+                    <p>Em até 25 minutos enviamos o valor total pelo WhatsApp.</p>
+                </div>
+            </div>
+
+            <div class="step-item" style="border:none; box-shadow:none; padding: 0.5rem 0;">
+                <div class="step-number">3</div>
+                <div style="width: 50px; height: 50px; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #1f2937;">
+                    <i class="ph-fill ph-check-circle"></i>
+                </div>
+                <div class="step-text">
+                    <h4>Aprove e faça o pagamento</h4>
+                    <p>Após aprovar o orçamento, realize o pagamento.</p>
+                </div>
+            </div>
+
+            <div class="step-item" style="border:none; box-shadow:none; padding: 0.5rem 0;">
+                <div class="step-number">4</div>
+                <div style="width: 50px; height: 50px; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #1f2937;">
+                    <i class="ph-fill ph-shopping-cart"></i>
+                </div>
+                <div class="step-text">
+                    <h4>Nós compramos</h4>
+                    <p>Vamos até o mercado, separamos seus produtos com cuidado.</p>
+                </div>
+            </div>
+
+            <div class="step-item" style="border:none; box-shadow:none; padding: 0.5rem 0;">
+                <div class="step-number">5</div>
+                <div style="width: 50px; height: 50px; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #16a34a;">
+                    <i class="ph-fill ph-user-focus"></i>
+                </div>
+                <div class="step-text">
+                    <h4>Entregamos na sua casa</h4>
+                    <p>Você recebe suas compras de forma rápida e segura, na sua cidade.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="location-banner">
+            <i class="ph-fill ph-map-pin"></i>
+            <div class="location-text">
+                <strong>Atendemos apenas dentro da cidade</strong><br>
+                <span>Compras para o dia a dia, compras do mês, churrasco e muito mais.</span>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bottom Navigation (Mobile) -->
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <i class="ph ph-house"></i>
+            Início
+        </a>
+        <a href="comprar.html" class="nav-item">
+            <i class="ph ph-shopping-cart"></i>
+            Comprar
+        </a>
+        <a href="como-funciona.html" class="nav-item active">
+            <i class="ph-fill ph-file-text"></i>
+            Como funciona
+        </a>
+        <a href="mercados.html" class="nav-item">
+            <i class="ph ph-storefront"></i>
+            Mercados
+        </a>
+        <a href="contato.html" class="nav-item">
+            <i class="ph ph-whatsapp-logo"></i>
+            Contato
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>

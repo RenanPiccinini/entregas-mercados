@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Fácil - Mercados Parceiros</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <!-- Leaf Backgrounds -->
+    <svg class="leaf-bg leaf-top-left" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50 0 C80 20 100 50 100 100 C50 100 0 80 0 50 C0 20 20 0 50 0 Z" fill="#22c55e" opacity="0.8"/>
+    </svg>
+    <svg class="leaf-bg leaf-bottom-right" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50 0 C80 20 100 50 100 100 C50 100 0 80 0 50 C0 20 20 0 50 0 Z" fill="#15803d" opacity="0.8"/>
+    </svg>
+
+    <!-- Header -->
+    <header class="app-header">
+        <a href="index.html" class="logo-container">
+            <img src="logo.png" alt="Mercado Fácil">
+        </a>
+        <button class="menu-btn" id="menuBtn">
+            <i class="ph ph-list"></i>
+        </button>
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+            <a href="index.html" class="nav-item"><i class="ph ph-house"></i> Início</a>
+            <a href="comprar.html" class="nav-item"><i class="ph ph-shopping-cart"></i> Comprar</a>
+            <a href="como-funciona.html" class="nav-item"><i class="ph ph-list-numbers"></i> Como funciona</a>
+            <a href="mercados.html" class="nav-item active"><i class="ph-fill ph-storefront"></i> Mercados</a>
+            <a href="contato.html" class="nav-item"><i class="ph ph-whatsapp-logo"></i> Contato</a>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" id="closeMenuBtn"><i class="ph ph-x"></i></button>
+        <div class="mobile-nav-links">
+            <a href="index.html"><i class="ph ph-house"></i> Início</a>
+            <a href="comprar.html"><i class="ph ph-shopping-cart"></i> Comprar</a>
+            <a href="como-funciona.html"><i class="ph ph-list-numbers"></i> Como funciona</a>
+            <a href="mercados.html" class="active"><i class="ph-fill ph-storefront"></i> Mercados</a>
+            <a href="contato.html"><i class="ph ph-whatsapp-logo"></i> Contato</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container">
+        <h1 class="page-title mt-4">Nossos mercados<br>parceiros</h1>
+        <p class="page-subtitle">Realizamos suas compras nos<br>melhores mercados da cidade.</p>
+
+        <div class="markets-grid">
+            <div class="market-card">
+                <i class="ph-fill ph-shopping-cart" style="color: #dc2626;"></i>
+                <h4>RONQUI</h4>
+                <span>Supermercados</span>
+            </div>
+            <div class="market-card">
+                <i class="ph-fill ph-basket" style="color: #2563eb;"></i>
+                <h4>ECONOMIA</h4>
+                <span>Supermercados</span>
+            </div>
+            <div class="market-card">
+                <i class="ph-fill ph-crown" style="color: #d97706;"></i>
+                <h4>CRISTO REI</h4>
+                <span>Supermercados</span>
+            </div>
+        </div>
+
+        <p class="disclaimer-text">Os preços e disponibilidade dos produtos<br>seguem as lojas parceiras.</p>
+
+        <h2 class="page-title" style="font-size: 1.3rem; margin-top: 2rem;">Por que comprar com<br>o Mercado Fácil?</h2>
+
+        <div class="why-us-grid mt-4">
+            <div class="why-us-item">
+                <div class="why-us-icon green-light"><i class="ph-fill ph-basket"></i></div>
+                <h5>Variedade de produtos</h5>
+                <p>Compramos tudo o que você precisa.</p>
+            </div>
+            <div class="why-us-item">
+                <div class="why-us-icon green-light"><i class="ph-fill ph-currency-circle-dollar"></i></div>
+                <h5>Mais praticidade</h5>
+                <p>Sem filas e sem perda de tempo.</p>
+            </div>
+            <div class="why-us-item">
+                <div class="why-us-icon green-light" style="background-color: transparent; color: #22c55e;"><i class="ph-fill ph-thumbs-up" style="font-size: 2rem;"></i></div>
+                <h5>Atendimento personalizado</h5>
+                <p>Tire suas dúvidas pelo WhatsApp.</p>
+            </div>
+            <div class="why-us-item">
+                <div class="why-us-icon green-light" style="background-color: transparent; color: #22c55e;"><i class="ph-fill ph-shield-check" style="font-size: 2rem;"></i></div>
+                <h5>Compra segura</h5>
+                <p>Você aprova o orçamento antes do pagamento.</p>
+            </div>
+        </div>
+
+        <a href="https://wa.me/5544999755856" target="_blank" class="whatsapp-btn-dark mb-4">
+            <div class="whatsapp-btn-content">
+                <i class="ph-fill ph-whatsapp-logo"></i>
+                <div>
+                    <h4>Ficou com alguma dúvida?</h4>
+                    <p>Fale conosco pelo WhatsApp</p>
+                </div>
+            </div>
+            <i class="ph ph-caret-right" style="font-size: 1.5rem;"></i>
+        </a>
+    </main>
+
+    <!-- Bottom Navigation (Mobile) -->
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <i class="ph ph-house"></i>
+            Início
+        </a>
+        <a href="comprar.html" class="nav-item">
+            <i class="ph ph-shopping-cart"></i>
+            Comprar
+        </a>
+        <a href="como-funciona.html" class="nav-item">
+            <i class="ph ph-file-text"></i>
+            Como funciona
+        </a>
+        <a href="mercados.html" class="nav-item active">
+            <i class="ph-fill ph-storefront"></i>
+            Mercados
+        </a>
+        <a href="contato.html" class="nav-item">
+            <i class="ph ph-whatsapp-logo"></i>
+            Contato
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
